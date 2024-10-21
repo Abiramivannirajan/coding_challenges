@@ -22,5 +22,9 @@ var Helicopter = /** @class */ (function () {
     };
     return Helicopter;
 }());
+// Test the implementations
 var objects = [new Spacecraft(), new Airplane(), new Helicopter()];
-(function (obj) { return obj.flyObj(); });
+objects.forEach(function (obj) { return obj.flyObj(); });
+for (var i = 0; i < objects.length; i++) {
+    console.log(objects[i].flyObj());
+}

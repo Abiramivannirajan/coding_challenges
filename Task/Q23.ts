@@ -24,4 +24,8 @@ class Helicopter implements Flyable {
 
 // Test the implementations
 const objects: Flyable[] = [new Spacecraft(), new Airplane(), new Helicopter()];
-objects.forEach(obj => obj.flyObj());
+//objects.forEach(obj => obj.flyObj());
+for(var i : number = 0 ; i < objects.length; i++)
+{
+    console.log(objects[i].flyObj());   
+}

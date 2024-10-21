@@ -8,11 +8,8 @@ function getSubsets(str: string): string[] {
             subsets.push(str.substring(i, j));
         }
     }
-
     return subsets;
 }
-
-
 const inputString = "dog";
 console.log(getSubsets(inputString));
 

@@ -16,7 +16,7 @@ var sum = 0;
 for (var i = 0; i < size; i++) {
     sum += matrix[i][i]; // Accessing diagonal elements [0][0], [1][1], etc.
 }
-// Output the result
+// Output the resulto
 console.log("Input Matrix:");
 console.table(matrix);
 console.log("Sum of the left diagonal elements:", sum);
