@@ -7,6 +7,4 @@ var people1 ={
     paragraph:"helo i am ghost in the devil house of the country in the world"
 }
 // console.log(people.title)
- var ar = [people, people1]
-console.log(ar[0].title);
-
+ 
