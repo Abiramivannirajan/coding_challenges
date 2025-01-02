@@ -22,4 +22,4 @@ const prices2 = [1, 2, 3, 4, 5];
 console.log(finalPrices(prices2));  // Output: [1, 2, 3, 4, 5]
 
 const prices3 = [10, 1, 1, 6];
-console.log(finalPrices(prices3));  // Output: [9, 0, 1, 6]
+console.log(finalPrices(prices3)) // Output: [9, 0, 1, 6]
